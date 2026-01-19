@@ -16,72 +16,72 @@ This project is ideal for Python beginners to understand functions, conditional 
 
   . Transaction history tracking
 
- .  Change ATM PIN
+  .  Change ATM PIN
 
- . Secure exit option
+  . Secure exit option
 
 🧑‍💻 Technologies Used
 
-  Language: Python 3
+   Language: Python 3
 
-  Concepts:
+   Concepts:
 
   . Functions
 
- . Loops
+  . Loops
 
- . Conditional statements
+  . Conditional statements
 
- . Lists
+  . Lists
+ 
+  . Global variables
 
- . Global variables
-
- . User input/output
+  . User input/output
 
 ⚙️ How the Program Works
 
- 1. User enters the ATM PIN to log in.
+  1. User enters the ATM PIN to log in.
 
- 2.If the PIN is correct, the ATM menu is displayed.
+  2. If the PIN is correct, the ATM menu is displayed.
 
- 3. User selects options from the menu:
+  3. User selects options from the menu:
 
- . Check balance
+     . Check balance
 
- . Deposit money
+     . Deposit money
 
- . Withdraw money
+     . Withdraw money
 
- . View transaction history
+     . View transaction history
 
- . Change PIN
+     . Change PIN
 
-4 .All transactions are stored in memory during program execution.
+  4. All transactions are stored in memory during program execution.
 
-5. User can exit safely from the system.
+  5. User can exit safely from the system.
 
 ▶️ How to Run the Program
 
- 1. Make sure Python 3 is installed on your system.
+  1. Make sure Python 3 is installed on your system.
 
- 2. Save the code in a file named atm_simulation.py
+  2. Save the code in a file named atm_simulation.py
 
- 3. Open terminal / command prompt.
+  3. Open terminal / command prompt.
 
- 4.Run the program:
+  4.Run the program:
 
   - python atm_simulation.py
 
 
- 5. Enter the default PIN:
+  5. Enter the default PIN:
 
   - 1212
 
 🔑 Default Account Details
 
-  . Initial Balance: ₹5000
+   . Initial Balance: ₹5000
 
-  . Default PIN: 1212
+   . Default PIN: 1212
 
 📌 Sample Output
    Enter your ATM PIN: 1212
@@ -97,25 +97,25 @@ This project is ideal for Python beginners to understand functions, conditional 
 
 🚀 Future Improvements
 
-  . Input validation for non-numeric values
+   . Input validation for non-numeric values
 
-  . Multiple user accounts
+   . Multiple user accounts
 
-  . File-based data storage
+   . File-based data storage
 
-  . Limited PIN attempts
+   . Limited PIN attempts
 
-  . ATM receipt generation
+   . ATM receipt generation
 
 📚 Learning Outcomes
 
-  . Understand real-world application logic
+   . Understand real-world application logic
 
-  . Improve Python function usage
+   . Improve Python function usage
+ 
+   . Learn menu-driven programming
 
-  . Learn menu-driven programming
-
-  . Practice problem-solving skills
+   . Practice problem-solving skills
 
 
 

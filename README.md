@@ -1,122 +1,85 @@
-ATM Simulation System – Python Mini Project
-Project Overview
+#  ATM Simulation System (Python Mini Project)
 
-The ATM Simulation System is a simple command-line based Python project that simulates basic ATM functionalities such as balance enquiry, cash deposit, withdrawal, PIN change, and transaction history.
-This project is ideal for Python beginners to understand functions, conditional statements, loops, and global variables.
+##  Project Overview
 
- Features
+The **ATM Simulation System** is a beginner-friendly Python mini project that simulates the basic working of an Automated Teller Machine (ATM). It allows users to securely log in using a PIN and perform common banking operations through a menu-driven interface.
 
-  . User authentication using PIN
+This project is designed to strengthen understanding of **Python fundamentals**, including functions, loops, conditionals, global variables, and user input handling.
 
-  . Balance enquiry
+---
 
-  . Cash deposit
+##  Features
 
-  . Cash withdrawal with balance check
+* Secure PIN-based authentication
+* Balance enquiry
+* Cash deposit
+* Cash withdrawal with balance check
+* Transaction history tracking
+* PIN change functionality
+* Menu-driven user interface
 
-  . Transaction history tracking
+---
 
-  .  Change ATM PIN
+##  Technologies Used
 
-  . Secure exit option
+* **Language:** Python 3
+* **Concepts:**
 
- Technologies Used
+  * Functions
+  * Conditional statements
+  * Loops
+  * Lists
+  * Global variables
+  * User input/output
 
-   Language: Python 3
+---
 
-   Concepts:
+##  How the Program Works
 
-  . Functions
+1. The user is prompted to enter their ATM PIN
+2. If authentication is successful, the ATM menu is displayed
+3. The user selects operations from the menu
+4. Transactions are processed and stored in history
+5. The user can exit the system safely
 
-  . Loops
+---
 
-  . Conditional statements
+##  Menu Options
 
-  . Lists
- 
-  . Global variables
+| Option | Description              |
+| ------ | ------------------------ |
+| 1      | Balance Enquiry          |
+| 2      | Deposit Cash             |
+| 3      | Withdraw Cash            |
+| 4      | View Transaction History |
+| 5      | Change ATM PIN           |
+| 6      | Exit                     |
 
-  . User input/output
+---
 
- How the Program Works
+##  Project Structure
 
-  1. User enters the ATM PIN to log in.
+```
+├── atm_simulation.py
+└── README.md
+```
 
-  2. If the PIN is correct, the ATM menu is displayed.
+---
 
-  3. User selects options from the menu:
+##  Sample Output
 
-     . Check balance
+```
+Enter your ATM PIN: ****
+Login Successful!
 
-     . Deposit money
-
-     . Withdraw money
-
-     . View transaction history
-
-     . Change PIN
-
-  4. All transactions are stored in memory during program execution.
-
-  5. User can exit safely from the system.
-
-How to Run the Program
-
-  1. Make sure Python 3 is installed on your system.
-
-  2. Save the code in a file named atm_simulation.py
-
-  3. Open terminal / command prompt.
-
-  4.Run the program:
-
-  - python atm_simulation.py
-
-
-  5. Enter the default PIN:
-
-  - 1212
-
- Default Account Details
-
-   . Initial Balance: ₹5000
-
-   . Default PIN: 1212
-
- Sample Output
-   Enter your ATM PIN: 1212
-   Login Successful!
-
-   ----- ATM MENU -----
-   1. Balance Enquiry
-   2. Deposit Cash
-   3. Withdraw Cash
-   4. Transaction History
-   5. Change PIN
-   6. Exit
-
- Future Improvements
-
-   . Input validation for non-numeric values
-
-   . Multiple user accounts
-
-   . File-based data storage
-
-   . Limited PIN attempts
-
-   . ATM receipt generation
-
- Learning Outcomes
-
-   . Understand real-world application logic
-
-   . Improve Python function usage
- 
-   . Learn menu-driven programming
-
-   . Practice problem-solving skills
-
+----- ATM MENU -----
+1. Balance Enquiry
+2. Deposit Cash
+3. Withdraw Cash
+4. Transaction History
+5. Change PIN
+6. Exit
+```
 
 
 

@@ -1,10 +1,10 @@
 ATM Simulation System – Python Mini Project
-📌 Project Overview
+Project Overview
 
 The ATM Simulation System is a simple command-line based Python project that simulates basic ATM functionalities such as balance enquiry, cash deposit, withdrawal, PIN change, and transaction history.
 This project is ideal for Python beginners to understand functions, conditional statements, loops, and global variables.
 
-🛠️ Features
+ Features
 
   . User authentication using PIN
 
@@ -20,7 +20,7 @@ This project is ideal for Python beginners to understand functions, conditional 
 
   . Secure exit option
 
-🧑‍💻 Technologies Used
+ Technologies Used
 
    Language: Python 3
 
@@ -38,7 +38,7 @@ This project is ideal for Python beginners to understand functions, conditional 
 
   . User input/output
 
-⚙️ How the Program Works
+ How the Program Works
 
   1. User enters the ATM PIN to log in.
 
@@ -60,7 +60,7 @@ This project is ideal for Python beginners to understand functions, conditional 
 
   5. User can exit safely from the system.
 
-▶️ How to Run the Program
+How to Run the Program
 
   1. Make sure Python 3 is installed on your system.
 
@@ -77,13 +77,13 @@ This project is ideal for Python beginners to understand functions, conditional 
 
   - 1212
 
-🔑 Default Account Details
+ Default Account Details
 
    . Initial Balance: ₹5000
 
    . Default PIN: 1212
 
-📌 Sample Output
+ Sample Output
    Enter your ATM PIN: 1212
    Login Successful!
 
@@ -95,7 +95,7 @@ This project is ideal for Python beginners to understand functions, conditional 
    5. Change PIN
    6. Exit
 
-🚀 Future Improvements
+ Future Improvements
 
    . Input validation for non-numeric values
 
@@ -107,7 +107,7 @@ This project is ideal for Python beginners to understand functions, conditional 
 
    . ATM receipt generation
 
-📚 Learning Outcomes
+ Learning Outcomes
 
    . Understand real-world application logic
 
